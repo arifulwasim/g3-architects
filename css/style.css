@@ -7,7 +7,7 @@
 }
 
 .container {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -142,9 +142,13 @@ nav ul li a {
         padding: 20px;
     }
 
-    nav {
-        padding-top: 20px;
+    nav,
+    .teams {
         flex-direction: column;
+    }
+
+    .teams .teams-img {
+        grid-template-columns: 1fr;
     }
 }
 
@@ -153,7 +157,8 @@ nav ul li a {
         padding: 20px;
     }
 
-    nav {
+    nav,
+    .teams {
         padding-top: 20px;
         flex-direction: column;
     }
