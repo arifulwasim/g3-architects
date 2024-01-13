@@ -2,4 +2,76 @@
 
 * {
     font-family: 'Work Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: var(--Dark-01, #131313);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-right: 30px;
+    color: var(--Dark-02, #424242);
+    font-weight: 500;
+    line-height: 26px;
+}
+
+/* banner styes */
+
+.banner-content {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-content h1 {
+    color: var(--Dark-01, #131313);
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.banner-content p {
+    color: var(--Dark-03, #727272);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.banner-content .banner-btn {
+    background: #FF900E;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.banner-img img {
+    width: 100%;
 }
